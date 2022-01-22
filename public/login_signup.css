@@ -1,0 +1,43 @@
+  
+  
+ 
+ .register{
+    margin-top: 40px;
+    padding: 40px;
+}
+.register-left{
+    text-align: center;
+    margin-top: 40px;
+    font-weight:bolder;
+}
+.register-left button{
+    border: none;
+    border-radius: 1.5rem;
+    width: 150px;
+    background: #f8f9fa;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.register-right{
+    background: white;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+
+.register-left p{
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+.register .register-form{
+    padding: 10%;
+    margin-top: 10%;
+}
+
+.register-heading{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: -15%;
+
+}

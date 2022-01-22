@@ -1,0 +1,292 @@
+
+.contact{
+    padding-bottom: 50px;
+    position: relative;
+    color:#fff;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("../img/bg.jpg");
+    background-size: cover; 
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size:36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .content p{
+    font-weight: 300;
+    color: #fff;
+}
+.container1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+}
+.container1 .contactInfo{
+        width:50%;
+        display: flex;
+        flex-direction: column;
+}
+.container1 .contactInfo .box{ 
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+.container1 .contactInfo .box .text{ 
+    position:relative;
+    display:flex;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight:300;
+}
+.container1 .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4;
+}
+.contactForm{
+    width:35%;
+    padding: 40px;
+    background:#fff;
+    color: black;
+}
+.contactForm h2{
+    font-size: 30px;
+    color:#333;
+    font-weight:500;
+}
+.contactForm .inputBox{
+    position:relative;
+    width:100%;
+    margin-top:10px;    
+}
+
+.contactForm .inputBox input,.contactForm .inputBox textarea{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border:none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left:0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]
+{
+    width:100px;
+    background:blue;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    padding:10px;
+    font-size:18px;
+}
+/*global*/
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+/*header*/
+header{
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+header a:hover{
+    font-weight: bold;
+    
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px;    
+}
+header #branding h1{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .current a, header .highlight{
+ color:Black;
+ font-weight: bold;
+}
+/*buttons*/
+.button1{
+    height:38px;
+	background: black;
+	border:0;
+	padding-left:20px;
+	padding-right:20px;
+	color:#ccc;
+	border-radius: 1.5rem;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+.button1:hover{
+    background-color:navy;
+}
+#showcase{
+    min-height: 650px;
+    border-bottom: 600px;
+	background: url("../img/slide-2.jpg") no-repeat 0 -380px;
+	text-align: center;
+	color: black ;
+}
+
+#showcase h1{   
+    margin-top:200px;
+	font-size: 50px;
+	margin:bottom:20px;
+	color: black;
+}
+#showcase p{
+    font-weight: bold;
+	font-size:20px;
+}
+#specialhealth{
+    margin-top:25px;
+    padding:15px;
+	color:#fff;
+	background: rgb(178, 187, 174);
+    min-height: 50px;
+}
+#specialhealth h1{
+    float:left;
+    margin-left:580px;
+    margin-top:60px;
+    font-family:sans-serif;
+    font-size: 14px;
+}
+#specialhealth form{
+	float:right;
+    margin-top: 50px;
+    margin-bottom:5px;
+	
+}
+#specialhealth input[type="Email"]{
+    padding: 4px;
+	height: 35.5px;
+	width: 250px;
+}
+/*boxes*/
+#boxes{
+    margin-top:20px;
+}
+#boxes .box{
+	float:left;
+	width:33%;
+	padding:10px;
+	text-align:center;
+}
+#boxes .box img{
+	width: 250px;
+}
+#appointment{
+    margin-top:20px;
+}
+#appointment .box{
+    float:left;
+	width:50%;
+	padding:10px;
+	text-align:center;
+}
+#appointment .box h3 a{
+    text-decoration: none;
+}
+#appointment .box img{
+    width: 250px;
+}
+#appointment .box button{
+    border: none;
+    background-color:#d74338;
+    color: #fff;
+    height:38px;
+    padding-left:20px;
+	padding-right:20px;
+    padding-bottom:10px;
+    transition-duration: 0.5s;
+	cursor: pointer;
+}
+#appointment .box button:hover{
+    background-color:navy;
+}
+#appointment .box button:active{
+    background-color: green;
+}
+#appointment .box button:visited{
+    background-color: purple;
+}
+
+/*footer*/
+footer{
+	padding: 20px;
+	
+	color: #fff;
+	background-color:#d74338;
+	text-align:center;
+}
+@media (max-width: 991px)
+{
+    .contact{
+        padding: 50px;
+    }
+    .container1{
+        flex-direction: column;
+    }
+    .container1 .contactInfo{
+        width: 100%;
+    
+    }
+    .contact .content h2{
+        margin-top: 50px;
+    }
+    .container1 .contactForm{
+        width:100%;
+    }
+}
