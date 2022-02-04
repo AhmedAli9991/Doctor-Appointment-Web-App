@@ -8,6 +8,7 @@
 - JavaScript
 - JQuery
 - MySQL
+- Relational Database
 - Database concepts
 - AJAX
 - PHP
