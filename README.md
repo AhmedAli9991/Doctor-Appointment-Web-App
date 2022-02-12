@@ -13,6 +13,7 @@
 - AJAX
 - PHP
 - Laravel
+- sessions
 - MVC Architecture
 - Web concepts
 - Git
