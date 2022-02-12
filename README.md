@@ -13,6 +13,7 @@
 - AJAX
 - PHP
 - Laravel
+- authentication 
 - cookies
 - sessions
 - MVC Architecture
