@@ -1,4 +1,4 @@
-# Doctor Appointment Web App FrontEnd
+# Doctor Appointment Web App
 
 ### what i learned
 
